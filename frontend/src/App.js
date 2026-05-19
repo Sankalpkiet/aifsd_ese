@@ -1,16 +1,14 @@
 import React from "react";
-import ComplaintForm from "./ComplaintForm";
-import ComplaintList from "./ComplaintList";
+import Login from "./Login";
+import Register from "./Register";
+import Dashboard from "./Dashboard";
 
 function App() {
   return (
     <div>
-      <h1 style={{ textAlign: "center", color: "white" }}>
-        AI Complaint Management
-      </h1>
-
-      <ComplaintForm />
-      <ComplaintList />
+      <Login />
+      <Register />
+      <Dashboard />
     </div>
   );
 }

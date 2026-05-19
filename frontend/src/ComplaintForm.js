@@ -18,7 +18,7 @@ function ComplaintForm() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    await axios.post("http://localhost:5000/api/complaints", form);
+    await axios.post("https://aifsd-ese-backend.onrender.com/api/complaints", form);
     alert("Complaint Submitted!");
   };
 
