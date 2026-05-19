@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables (VERY IMPORTANT)
+.env
+
+# Build files
+build/
+dist/
+
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE files
+.vscode/
+.idea/
+
+# React specific
+frontend/node_modules/
+frontend/build/
+
+# Backend specific
+backend/node_modules/
